@@ -1,0 +1,1 @@
+Resolucion 1366*768
