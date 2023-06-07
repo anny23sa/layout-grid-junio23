@@ -5,9 +5,9 @@
 }
 .container{
     height: 768px;
-    min-width: 1366;
+    min-width: 100vh;
     display: grid;
-    grid-template-columns: 0.7fr 1.2fr 1.2fr 1.2fr; 
+    grid-template-columns: 1fr 26% 26% 26%; 
     grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr;
     grid-template-areas: 
     "navbar navbar navbar navbar"
@@ -16,7 +16,7 @@
     "footer footer footer footer";
     grid-gap: 10px;
     background-color: rgb(197, 193, 193);
-    max-width: 1366;
+    max-width: 1366px;
     font-family: 'courier new, courier,menospace';
     font-weight: 800;
     font-size: 12px;
@@ -132,7 +132,11 @@
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     object-fit: cover;
 }
+.header ul li span{
+    opacity: 0.5;
+}
 .main{
+    display: grid;
     background-color: rgb(245, 224, 224);
     grid-area: main;
     border-radius: 6px;
@@ -160,6 +164,7 @@
 }
 /*-footer-*/
 .footer{
+    display: grid;
     background-color: rgb(106, 216, 179) ;
     grid-area: footer;
     grid-column-start: 1;
