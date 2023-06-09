@@ -35,6 +35,7 @@
     display: grid;
     justify-self: center;
     align-items: center;
+    padding-top: 14px;
 }
 .header{
     display: flex;
@@ -123,7 +124,6 @@
 .footer_redsocial{
     text-align: center;
     justify-content: center;
-    padding-top: 12px;
     width: 100%;
     color: black;
 }
